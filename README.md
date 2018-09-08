@@ -1,5 +1,5 @@
 # uikitextensions
-Extensions with Methods I've Added to UIKit Classes
+Extensions with Methods and Properties I've Added to UIKit Classes
 
 #### Note: I'm in the process of preparing this code for publishing here.
 
