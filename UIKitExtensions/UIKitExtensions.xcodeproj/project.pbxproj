@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		656D761521459C64004BFE97 /* UIKitExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 656D761321459C64004BFE97 /* UIKitExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		656D761C21459C9F004BFE97 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656D761B21459C9F004BFE97 /* UICollectionViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		656D761021459C64004BFE97 /* UIKitExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKitExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		656D761321459C64004BFE97 /* UIKitExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitExtensions.h; sourceTree = "<group>"; };
 		656D761421459C64004BFE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656D761B21459C9F004BFE97 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		656D761221459C64004BFE97 /* UIKitExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				656D761B21459C9F004BFE97 /* UICollectionViewExtension.swift */,
 				656D761321459C64004BFE97 /* UIKitExtensions.h */,
 				656D761421459C64004BFE97 /* Info.plist */,
 			);
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					656D760F21459C64004BFE97 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656D761C21459C9F004BFE97 /* UICollectionViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +264,7 @@
 		656D761921459C64004BFE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.UIKitExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		656D761A21459C64004BFE97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
