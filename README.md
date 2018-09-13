@@ -9,3 +9,6 @@ This is a collection of Swift class extensions to add functionality to UIKit cla
 * Xcode 9.4 or later
 * iOS 11.4 or later
   * May work with previous iOS versions but hasn't been tested with those versions
+
+#### See Also
+I have a separate framework with extensions on Swift Standard Library types [here](https://github.com/brennadev/swiftstandardlibraryextensions).
