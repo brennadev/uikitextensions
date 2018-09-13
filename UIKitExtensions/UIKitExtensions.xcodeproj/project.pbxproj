@@ -10,6 +10,7 @@
 		656D761521459C64004BFE97 /* UIKitExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 656D761321459C64004BFE97 /* UIKitExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		656D761C21459C9F004BFE97 /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656D761B21459C9F004BFE97 /* UICollectionViewExtension.swift */; };
 		656D761E21459F6E004BFE97 /* UISegmentedControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656D761D21459F6E004BFE97 /* UISegmentedControlExtension.swift */; };
+		65BE8AE6214AA54B004B8021 /* CGSizeCGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BE8AE5214AA54B004B8021 /* CGSizeCGRectExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		656D761421459C64004BFE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		656D761B21459C9F004BFE97 /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
 		656D761D21459F6E004BFE97 /* UISegmentedControlExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISegmentedControlExtension.swift; sourceTree = "<group>"; };
+		65BE8AE5214AA54B004B8021 /* CGSizeCGRectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSizeCGRectExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			children = (
 				656D761B21459C9F004BFE97 /* UICollectionViewExtension.swift */,
 				656D761D21459F6E004BFE97 /* UISegmentedControlExtension.swift */,
+				65BE8AE5214AA54B004B8021 /* CGSizeCGRectExtension.swift */,
 				656D761321459C64004BFE97 /* UIKitExtensions.h */,
 				656D761421459C64004BFE97 /* Info.plist */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				656D761E21459F6E004BFE97 /* UISegmentedControlExtension.swift in Sources */,
+				65BE8AE6214AA54B004B8021 /* CGSizeCGRectExtension.swift in Sources */,
 				656D761C21459C9F004BFE97 /* UICollectionViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

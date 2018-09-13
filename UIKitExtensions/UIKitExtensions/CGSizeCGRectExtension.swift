@@ -1,6 +1,7 @@
 //
-//  UISegmentedControlExtension.swift
+//  CGFloatExtension.swift
 //  UIKitExtensions
+//
 /*
  MIT License
  
@@ -25,29 +26,21 @@
  SOFTWARE.
  */
 
+
+// Note: I've included these in this framework as CGSize and CGRect are used with UIKit so much
 import UIKit
 
-extension UISegmentedControl {
-    /// Get title of selected segment
-    var selectedSegmentTitle: String? {
-        return titleForSegment(at: selectedSegmentIndex)
+extension CGSize {
+    /// Area represented by this size
+    var area: CGFloat {
+        return height * width
     }
-    
-    /// Get first segment with given title
-    func segmentFor(title: String) -> Int? {
-        for i in 0..<numberOfSegments {
-            if titleForSegment(at: i) == title {
-                return i
-            }
-        }
-        return nil
-    }
-    
-    /// Display titles of all segments in console. Will display "empty title" for nil/unset titles.
-    /// - note: For debugging purposes
-    func displaySegmentTitles() {
-        for i in 0..<numberOfSegments {
-            print(titleForSegment(at: i) ?? "empty title")
-        }
+}
+
+
+extension CGRect {
+    /// Area represented by this rectangle
+    var area: CGFloat {
+        return size.area
     }
 }
