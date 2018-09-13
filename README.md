@@ -1,7 +1,7 @@
 # uikitextensions
-Extensions with Methods and Properties I've Added to UIKit Classes
+Extensions with Methods and Properties I've Added to UIKit Classes/Structs
 
-This is a collection of Swift class extensions to add functionality to UIKit classes. I've used these methods to either simplify functionality or debugging of UIKit code in my projects. See the documentation in each file for more detailed information on the methods added. Each file contains an extension for one UIKit class.
+This is a collection of Swift class/struct extensions to add functionality to UIKit classes/structs. I've used these methods to either simplify functionality or debugging of UIKit code in my projects. See the documentation in each file for more detailed information on the methods and properties added. Each file contains an extension for one UIKit class or group of related classes/structs.
 
 #### Compatibility
 * Xcode 9.4 or later
